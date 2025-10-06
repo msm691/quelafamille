@@ -36,19 +36,6 @@ function resetRotation() {
     `;
 }
 
-/* --- hover effect disabled ---
-rotatingDiv.addEventListener('mouseenter', function() {
-    rotatingDiv.style.transition = 'none'; 
-    document.addEventListener('mousemove', updateRotation);
-});
-
-rotatingDiv.addEventListener('mouseleave', function() {
-    rotatingDiv.style.transition = 'transform 0.6s ease'; 
-    document.removeEventListener('mousemove', updateRotation);
-    resetRotation();
-});
---- end disable --- */
-
 const startScreen = document.getElementById('start-screen');
 
 startScreen.addEventListener('click', () => {
@@ -94,7 +81,6 @@ if (discordBtn) {
   });
 }
 
-// --- Slider volume ---
 (function(){
   const audio = document.getElementById('audio');
   const slider = document.getElementById('vol');
@@ -111,24 +97,20 @@ if (discordBtn) {
     audio.volume = v;
   }
 
-  // init
   const startPct = getPct();
   slider.value = startPct;
   apply(startPct);
 
-  // live update
   slider.addEventListener('input', e => {
     const pct = +e.target.value;
     apply(pct);
     localStorage.setItem('volumePct', pct);
   });
 
-  // réappliquer après le premier geste si l’autoplay a été bloqué
   document.addEventListener('click', () => {
     apply(+slider.value);
   }, { once:true });
 
-  // afficher la durée totale quand dispo
   const totalTimeSpan = document.getElementById('totalTime');
   if (totalTimeSpan) {
     const fmt = seconds => {
