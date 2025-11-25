@@ -93,8 +93,8 @@ export function MainPage({ startAudio = false }: MainPageProps) {
             {/* Discord QLF Guild */}
             <SocialButton
               icon={<MessageCircle className="w-5 h-5" />}
-              label="Discord QLF Guild"
-              href="https://discord.gg/quelamif"
+              label="Github"
+              href="https://github.com/msm691"
             />
             
             {/* Telegram */}
