@@ -30,7 +30,7 @@ export function MainPage({ startAudio = false }: MainPageProps) {
   //    - Ajoutez l'URL de votre photo ci-dessous
   //    - Formats supportés : .jpg, .png, .gif, .webp
   //    - Exemple : const avatarUrl = 'https://votresite.com/avatar.jpg';
-  const avatarUrl = 'https://i.ibb.co/rG2bLYZQ/kts.png';
+  const avatarUrl = 'https://i.ibb.co/YB93Q3DV/pdp.jpg';
   
   // 4. 📝 Pour changer vos INFORMATIONS DE PROFIL :
   const username = 'locker1337';           // Votre pseudo
