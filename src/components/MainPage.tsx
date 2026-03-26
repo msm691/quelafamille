@@ -18,23 +18,23 @@ export function MainPage({ startAudio = false }: MainPageProps) {
   //    - Décommentez la ligne ci-dessous
   //    - Remplacez l'URL par le lien de votre vidéo (format .mp4, .webm, etc.)
   //    - Exemple : const videoUrl = 'https://votresite.com/video.mp4';
-  const videoUrl = 'https://r2.guns.lol/b33d810f-0dfe-476c-a840-774080f7c02a.mp4';
+  const videoUrl = 'https://r2.guns.lol/1bd58f32-f845-45ba-81f0-30c6be6fb605.mp4';
   
   // 2. Pour ajouter une MUSIQUE de fond :
   //    - Décommentez la ligne ci-dessous
   //    - Remplacez l'URL par le lien de votre musique (format .mp3, .ogg, etc.)
   //    - Exemple : const audioUrl = 'https://votresite.com/musique.mp3';
-  const audioUrl = 'https://r2.guns.lol/d5da756c-1312-492b-9079-bdc01f2f4d63.mp3';
+  const audioUrl = 'https://r2.guns.lol/2324defd-5485-45a1-b9ff-d3ccb7349a1d.mp3';
   
   // 3. 👤 Pour changer votre PHOTO DE PROFIL :
   //    - Ajoutez l'URL de votre photo ci-dessous
   //    - Formats supportés : .jpg, .png, .gif, .webp
   //    - Exemple : const avatarUrl = 'https://votresite.com/avatar.jpg';
-  const avatarUrl = 'https://i.ibb.co/xt5Ts8h3/qlf.png';
+  const avatarUrl = 'https://i.ibb.co/rG2bLYZQ/kts.png';
   
   // 4. 📝 Pour changer vos INFORMATIONS DE PROFIL :
-  const username = 'qlf';           // Votre pseudo
-  const tag = '#quelamif';            // Votre tag/identifiant
+  const username = 'locker1337';           // Votre pseudo
+  const tag = '#FaussaireUHQ';            // Votre tag/identifiant
   const description = 'UUID : 1';  // Votre description
   
   // 5. 🏆 Pour ajouter des BADGES/ICÔNES sous votre pseudo :
@@ -93,22 +93,15 @@ export function MainPage({ startAudio = false }: MainPageProps) {
             {/* Discord QLF Guild */}
             <SocialButton
               icon={<MessageCircle className="w-5 h-5" />}
-              label="Github"
-              href="https://github.com/msm691"
+              label="Discord"
+              href="https://discord.gg/pole-emploi"
             />
             
             {/* Telegram */}
             <SocialButton
               icon={<Send className="w-5 h-5" />}
               label="Telegram"
-              href="https://t.me/kts1337"
-            />
-            
-            {/* Twitter */}
-            <SocialButton
-              icon={<Twitter className="w-5 h-5" />}
-              label="Twitter"
-              href="https://twitter.com/srp1337"
+              href="https://t.me/faussaire1337"
             />
 
             {/* 💡 GUIDE RAPIDE :
