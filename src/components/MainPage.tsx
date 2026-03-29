@@ -94,7 +94,7 @@ export function MainPage({ startAudio = false }: MainPageProps) {
             <SocialButton
               icon={<MessageCircle className="w-5 h-5" />}
               label="Discord"
-              href="https://discord.gg/pole-emploi"
+              href="https://discord.gg/v9ZmgGshuN"
             />
             
             {/* Telegram */}
